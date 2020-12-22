@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.box{
+	width: 100%;
+	height: 100%;
+}
+.box ul{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.box ul video source{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.sec{
+	width: 0.5rem;
+	height: 2rem;
+	/*z-index: 99;*/
+	position: fixed;
+	bottom: 3rem;
+	right: 0.1rem;
+}
+.sec div{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-top: 0.4rem;
+	display: flex;
+}
+.sec div img{
+	width: 100%;
+	height: 100%;
+}
+.sec .dianzan{
+	position: relative;
+}
+.sec .dianzan img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.sec .dianzan img:nth-child(2){
+	display: none;
+}
+.touxiang{
+	border-radius: 50%;
+	overflow: hidden;
+}
+.area{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+.area .area_top{
+	width: 100%;
+	height: 30%;
+}
+.area .area_botm{
+	width: 100%;
+	height: 70%;
+	background: white;
+}
+.area .area_botm ul{
+	width: 100%;
+}
+
+.gn{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	position: absolute;
+	bottom: 0.2rem;
+	left: 0.2rem;
+}
+.gn input{
+	width: 75%;
+}
+.gn button{
+	width: 25%;
+}
+.area .area_botm ul li{
+	width: 100%;
+	display: flex;
+}
+
+.area .area_botm ul li p:nth-child(1){
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+}
+.area .area_botm ul li p:nth-child(2){
+	width: 2rem;
+	height: 0.2rem;
+	font-size: 0.16rem;
+	padding-left: 0.15rem;
+	padding-top: 0.1rem;
+}
+.area .area_botm ul li p:nth-child(1) img{
+	width: 100%;
+	height: 100%;
+}
